@@ -10,3 +10,59 @@
   font-weight: 400;
   font-style: normal;
 }
+.display-flex{
+    display: flex;
+}
+.navbar{
+justify-content: space-between;
+}
+.bg-light{
+    background-color:rgba(255, 144, 14, 0.07);
+}
+.nav-item{
+list-style: none;
+margin-right: 20px;
+}
+.nav-link{
+text-decoration: none;
+}
+.text-gray{
+    color:#424242 ;
+}
+.banner, .navbar{
+    max-width: 1140 px;
+    margin: 0 auto;
+}
+.banner-content{
+    max-width: 850;
+    margin: 0 auto;
+    text-align:center ;
+    margin-bottom: 50px;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 4rem;
+    
+}
+.banner-description{
+    max-width:868px;
+    font-size: 1rem;
+    color: #727272;
+}
+.btn-primary{
+    background-color: rgba(255, 144, 14, 1);
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 1.25rem;
+    color: white;
+    padding: 21px 25px;
+    border: 0;
+}
+.banner-img{
+    width: 100%;
+}
+@media screen and (max-width:576px) {
+    .navbar, .nav-title{
+        flex-direction: column;
+    }
+}

@@ -111,6 +111,36 @@ main{
 #quick-list{
     font-weight: 500;
 }
+/* facts-related-styles */
+.fact-descriptions{
+    max-width: 540px;
+}
+.facts-container{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+
+.card-fact{
+    border: 1px solid #FF900E;
+    max-width: 241px;
+    height: 241px;
+    border-radius: 8px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+.fact-number{
+    font-weight: 600;
+    font-size:2.8rem ;
+    margin-top: 10px;
+    margin-bottom: 5px;
+}
+.fact-name{
+    font-weight: 600;
+    font-size: 1.25rem;
+    margin-top: 10px;
+}
 
 
 
